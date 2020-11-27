@@ -1,0 +1,97 @@
+/**
+*Override css's
+*/
+html{
+	height: 100%;
+}
+body{
+position:relative;
+min-height:100%!important;
+width:100%;
+}
+.bg-light{
+	background-color: #f3f3f3!important;
+}
+
+.margin-top-20{
+	margin-top: 20px;
+}
+.feature-img{
+   max-height: 200px;
+}
+/**image card css*/
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.pointer{
+	cursor: pointer;
+}
+.footer-bottom{
+	padding: 20px;
+	margin-top: 20px;
+	bottom : 0px;
+	left: 0px;
+	right:0px;
+	background:#330033;
+	color:#ffffff;
+	bottom:relative;
+}
+/*PRODUCT CSS
+*end product css
+*/
+.product-item{
+	background:#d1b3ff;
+}
+
+/*
+*side-bar
+*/
+.child-rows{
+	padding-left: 20px;
+	border-left: 1px;
+	background:#ff66ff;
+}
+.child-rows a.list-group-item{
+	border-left: 0px!important;
+}
+
+.list-group-item-action.active{
+	z-index: 2;
+	color: #fff;
+	background-color: #02aadd;
+	border-color: #02aadd;
+	border-radius: 0px ! important;
+}
+
+/*navbar */
+
+.my-light{
+	  background-color: #330033;
+	  font-family: "Nunito", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #ffffff;
+    text-align: left;
+}
+.hidden{
+	display:none;
+}
+
+
+.carousel-indicators li {
+	background-color:#840404;
+	height: 20px;
+	width: 20px;
+	border-radius:20px;
+	margin-top: 5px;
+}
+
+.carousel-caption h5{
+	color:#330033;
+	font-weight: bold;
+	padding: 20px;
+}

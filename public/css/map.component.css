@@ -1,0 +1,118 @@
+
+#map 
+{
+    height: 450px;
+    width: 650px;
+}
+
+#instructions {
+    position: absolute;
+    margin: 2%;
+    width: 35%;
+    height: 30%;
+     top: 15%;
+     bottom: 5%; 
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-y: scroll;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    line-height: 2em;
+    visibility: hidden;
+    /* display: none; */
+    
+  }
+
+ .btn-danger{
+   margin: 5px;
+ }
+  
+  .duration {
+    font-size: 2em;
+  }
+
+  .mr-sm-2
+  {
+    width: 60%;
+    height: 20%;
+  }
+  
+  .btn-outline-secondary
+  {
+    margin: 2px;
+  }
+
+  .btn-sm {
+    margin: 2px
+  }
+
+  #ratingPopup {
+    position: absolute;
+    margin: auto;
+    width: 65%;
+    height: 30%;
+     top: 15%;
+     bottom: 5%;  
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-y: scroll;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    line-height: 2em;
+    visibility: hidden;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    /* display: none; */
+  }
+
+  .checked{
+    color: red;
+    font-size: 40px;
+  }
+  .checked1
+  {
+    columns: #FFFF33;
+  }
+
+  .fa-male{
+    color: red;
+    /* height: 20em;
+    width: 5em; */
+    /* background-size: 100% 100%; */
+  }
+
+  .nameLink{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+  }
+
+  
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* margin-top: 25px; */
+    font-size: 15px;
+  
+    /* Position the tooltip */
+    position:relatives;
+    z-index: 1;
+    top: 25px;
+  }
+
+  .nameLink:hover .tooltiptext {
+    visibility: visible;
+  }
